@@ -1,0 +1,205 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #000;
+    background-image: url('../images/bg.jpg');
+}
+
+ul {
+    list-style: none;
+    padding-left: unset;
+}
+
+.icons {
+    padding: 0 10px;
+    margin: 10px 0;
+    border-left: 3px dotted #fff;
+    text-align: center;
+}
+ 
+.icons p {
+    margin: 0;
+}
+ 
+a {
+    text-decoration: none;
+} 
+
+a:hover {
+    color: #000;
+}
+
+.btn:hover {
+    background-color: #000;
+}
+
+.fa-facebook-f, .fa-rss, .fa-twitter, .fa-youtube {
+    font-size: 3em;
+    line-height: 1.5em;
+}
+
+.facebook {
+    background-color: #465199;
+    padding: 5px 2px;
+    margin: 0 3px 3px 3px;
+}
+
+.facebook a {
+    color: #7881b6;
+}
+
+.rss {
+    background-color: #d58e1a;
+    padding: 5px 2px;
+    margin: 3px;
+}
+
+.rss a {
+    color: #dfab68;
+}
+
+.twitter {
+    background-color: #6689c9;
+    padding: 5px 2px;
+    margin: 3px;
+}
+
+.twitter a {
+    color: #8ea5d6;
+}
+
+.youtube {
+    background-color: #c22017;
+    padding: 5px, 0px;
+}
+
+.youtube a {
+    color: #d2615b;
+}
+
+nav li {
+    background-color: #c50018;
+    color: #000;
+}
+
+.row > li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+    color: #000
+}
+
+.nav-item:hover {
+    color: #000;
+}
+
+.top {
+    background-image: url('../images/top-image.png');
+    background-position: -150px -150px;
+    border: 8px solid #eee;
+    position: relative;
+    max-height: 350px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.top img:last-child {
+    width: auto;
+    max-height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translateY(-50%)
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    min-height: 100%;
+}
+
+article h3 {
+    margin: 10px;
+    font-style: italic;
+}
+
+article p {
+    margin: 10px;
+}
+
+article a {
+    text-align: center;
+    margin: 10px;
+    color: #c60017;
+}
+
+
+#skateboarders {
+    margin: 5px 0;
+    position: relative;
+    text-align: center;
+}
+
+#skateboarders h2 {
+    background-color: #c60017;
+    padding: 25px 4px;
+    color: #fff;
+    font-size: 1.5em;
+    position: relative;
+    width: 100%;
+}
+
+#skateboarders {
+    position: relative;
+    padding: 0;
+    overflow: auto;
+}
+
+#skateboarders img {
+    border: 8px solid #fff;
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+#skateboarders span {
+    color: #fff;
+}
+
+#board-design {
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.contact {
+    background-color: #fff;
+}
+
+.btn {
+    background-color: #c22017;
+    color: #fff;
+    border-color: #c60017;
+}
+
+
+
+.end-symbols {
+    background-color: #4f4f4f;
+    color: #7b7b7b;
+    line-height: 0.5em;
+    font-size: 1em;
+    width: 10%;
+}
+
+.end-symbols p {
+    margin: 0;
+}
