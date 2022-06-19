@@ -14,17 +14,22 @@
 <body>
     <div class="container-md">
         <div class="row">
-            <a class="col align-self-center offset.md-6" href="">SUBSCRIBE</a>
+            <a class="col align-self-center offset-md-6 text-uppercase" aria-current="page" href="">Subscribe</a>
             <div class="col icons text-center row">
                 <div class="col facebook">
-                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a aria-current="page" href=""><p><i class="fab fa-facebook-f"></i></p></a>
                 </div>
-                <div class="col rss"><a href=""><i class="fa-solid fa-rss"></i></a></div>
-                <div class="col twitter"><a href=""><i class="fa-brands fa-twitter"></i></a></div>
-                <div class="col youtube"><a href=""><i class="fa-brands fa-youtube"></i></a></div>
+                <div class="col rss">
+                    <a aria-current="page" href=""><p><i class="fas fa-rss"></i></p></a>
+                </div>
+                <div class="col twitter">
+                    <a aria-current="page" href=""><p><i class="fab fa-twitter"></i></p></a>
+                </div>
+                <div class="col youtube">
+                    <a aria-current="page" href=""><p><i class="fab fa-youtube"></i></p></a>
+                </div>
             </div>
-        </div>
-
+    </div>
         <nav>
             <ul class="row">
                 <li class="col-12 col-lg mx-2">
@@ -33,7 +38,7 @@
                 <li class="col-12 col-lg mx-2">
                     <a href="#skateboarders">SKATEBOARDERS</a>
                 </li>
-                <li class="col-12 col-lg mx-2">
+                <li class="nav-item col-12 col-lg mx-2">
                     <a href="#board-design">BOARD DESIGN</a>
                 </li>
                 <li class="col-12 col-lg mx-2">
@@ -42,27 +47,27 @@
             </ul>
         </nav>
 
-        <div class="top">
-            <img class="grid" src="images/grid.png" alt="Grid">
+        <div class="banner">
+            <img class="grid-pic opacity-30" src="images/grid.png" alt="Grid">
             <img class="logo" src="images/peralta-logo.png" alt="Logo">
         </div>
 
-        <div class="row" id="sk8t-news">
+        <div class="row" id="skaters-news">
             <article class="col-12 col-lg">
                 <h2>Tony Hawk Foundation Raises Big Money At Celeb Fundraiser</h2>
-                <h3>October 10, 2013</h3>
+                <time class="font-italic font-weight-light" datetime="2013-10-10">October 10, 2013</time>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt sunt maxime dolore consequatur dolorum, ipsa officia dolores eius nobis, deserunt non minima, quidem quas totam rem nemo provident obcaecati nesciunt.</p>
                 <a href="">READ MORE</a>
             </article>
             <article class="col-12 col-lg">
                 <h2>Rodney Mullen: Pop an ollie and innovate! (TED Talk)</h2>
-                <h3>March 10, 2013</h3>
+                <time class="font-italic font-weight-light" datetime="2013-03-10">March 10, 2013</time>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt sunt maxime dolore consequatur dolorum, ipsa officia dolores eius nobis, deserunt non minima, quidem quas totam rem nemo provident obcaecati nesciunt.</p>
                 <a href="">READ MORE</a>
             </article>
             <article class="col-12 col-lg">
                 <h2>Ray Barbee Talks 'Ban This'</h2>
-                <h3>October 4, 2013</h3>
+                <time class="font-italic font-weight-light" datetime="2013-04-10">October 4, 2013</time>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt sunt maxime dolore consequatur dolorum, ipsa officia dolores eius nobis, deserunt non minima, quidem quas totam rem nemo provident obcaecati nesciunt.</p>
                 <a href="">READ MORE</a>
             </article>
@@ -70,24 +75,26 @@
 
         <section id="skateboarders">
             <h2>SKATEBOARDERS</h2>
-            <div class="col-12 col-md-8">
-                <div class="row">
-                    <div class="col-12 col-md-6 text-center">
-                        <img src="images/sk8er-4.png" alt="Lance Mountain">
-                        <span>Lance Mountain</span>
-                    </div>
-                    <div class="col-12 col-md-6 text-center">
-                        <img src="images/sk8er-3.png" alt="Rodney Mullen">
-                        <span>Rodney Mullen</span>
-                    </div>
-                    <div class="col-12 col-md-6 text-center">
-                        <img src="images/sk8er-1.png" alt="Steve Caballero">
-                        <span>Steve Caballero</span>
-                    </div>
-                </div>
-                    <div class="col-12 col-md-4 text-center">
-                        <img src="images/sk8er-2.png" alt="Tommy Guerrero">
-                        <span>Tommy Guerrero</span>
+            <div class="pictures row align-items-center">
+                <div class="col-12 col-md-8">
+                    <div class="row">
+                        <div class="col-12 col-md-6 skaters text-uppercase text-center">
+                            <img src="images/sk8er-4.png" alt="Lance Mountain">
+                            <span>Lance Mountain</span>
+                        </div>
+                        <div class="col-12 col-md-6 skaters text-uppercase text-center">
+                            <img src="images/sk8er-3.png" alt="Rodney Mullen">
+                            <span>Rodney Mullen</span>
+                        </div>
+                        <div class="col-12 col-md-6 skaters text-uppercase text-center">
+                            <img src="images/sk8er-1.png" alt="Steve Caballero">
+                            <span>Steve Caballero</span>
+                        </div>
+                    
+                        <div class="col-12 col-md-6 skaters text-uppercase text-center">
+                            <img src="images/sk8er-2.png" alt="Tommy Guerrero">
+                            <span>Tommy Guerrero</span>
+                        </div>
                     </div>
             </div>
         </section>
@@ -124,16 +131,15 @@
 
         <section class="row my-3 contact gx-0">
             <div class="col-12 col-md text-center">
-                <h2 class="m-3">
-                    Contact Us For More Information
-                </h2>
+                <h2 class="m-3">Contact Us For More Information</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, voluptatum nesciunt! Nisi rem, saepe possimus magni nostrum sequi exercitationem fugit blanditiis autem! Aliquam, quas culpa voluptate voluptatem perferendis error incidunt.</p>
-            <div class="text-center d-flex justify-content-start align-items-center my-4">
-                <a class="end-symbols px-2 py-0 m-2" href=""><i class="fa-brands fa-facebook-f"></i></a>
-                <a class="end-symbols px-2 py-0 m-2" href=""><i class="fa-solid fa-rss"></i></a>
-                <a class="end-symbols px-2 py-0 m-2" href=""><i class="fa-brands fa-twitter"></i></a>
+                <div class="text-center d-flex justify-content-start align-items-center my-4">
+                    <a class="end-symbols px-2 py-0 m-1" aria-current="page" href=""><p><i class="fab fa-facebook-f"></i></p></a>
+                    <a class="end-symbols px-2 py-0 m-1" aria-current="page" href=""><p><i class="fas fa-rss"></i></p></a>
+                    <a class="end-symbols px-2 py-0 m-1" aria-current="page" href=""><p><i class="fab fa-twitter"></i></p></a>
+                    <a class="end-symbols px-2 py-0 m-1" aria-current="page" href=""><p><i class="fab fa-youtube"></i></p></a>
 
-            </div>
+                </div>
             </div>
             <form class="col-12 col-md p-3" id="contact-us">
                 <div class="mb-3 row">
@@ -144,7 +150,7 @@
                     <div class="col-12 col-lg">
                         <div class="mb-3">
                             <label for="emailAddress" class="form-label">Email Address</label>
-                            <input type="email" class="form-label" id="emailAddress" placeholder="EMAIL">
+                            <input type="email" class="form-control" id="emailAddress" placeholder="EMAIL">
                         </div>
                     </div>
                     <div class="col-12">
@@ -154,7 +160,7 @@
                         </div>
                     </div>
                     <div class="col offset-6 d-grid">
-                        <button type="button" class="btn btn-primary">SUBMIT</button>
+                        <button type="button" class="btn btn-primary text-uppercase">Submit</button>
                     </div>
                 </div>
             </form>
