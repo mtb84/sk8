@@ -182,13 +182,12 @@
         width: 100%;
     }
 
-
-
     .skaters {
         position: relative;    
     }
         
     .skaters img {
+        flex-wrap: nowrap;
         border: 7px solid #fff;
         margin-top: 5px;
         width: 100%;
@@ -212,9 +211,8 @@
         padding: 20px;
     }
 
-    
-
     .skateboard-img {
+        transform: rotateZ(90deg);
         justify-content: center;
         align-items: center;
     }
